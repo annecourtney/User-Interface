@@ -5,7 +5,7 @@
 .container {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	
 	border:yellow solid 2px;
 	
 	
@@ -13,12 +13,12 @@
 
 .container header nav a{
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row;
 	background: green;
 	text-decoration: none;
 	color: lightgray;
 	justify-content: space-evenly;
-
+	width: 900px;
 
 	
 }
@@ -100,6 +100,8 @@
 /* ---> end bottom content*/
 
 /* Page break 2*/
+
+
 .HorizontalLine2 {
 	border-top: solid black 1px;
 	
