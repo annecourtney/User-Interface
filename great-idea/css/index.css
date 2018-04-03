@@ -2,14 +2,125 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	border:yellow solid 2px;
+	
+	
+}
+
+.container header nav a{
+	display: flex;
+	flex-flow: row wrap;
+	background: green;
+	text-decoration: none;
+	color: lightgray;
+	justify-content: space-evenly;
 
 
+	
+}
+
+
+
+/* ---> end of Navigation and Header Style */
+
+/* Cta text and image section */
+.cta .cta-text{
+
+	font-size: 50px;
+
+}
+.cta .cta-text h1 {
+	letter-spacing: 5px;
+
+}
+.cta img {
+	
+
+
+	
+}
+.cta button {
+	
+	border: 1px solid black;
+	background: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+}
+/* ---> end Cta text and image section */
+
+/* page break */
+.HorizontalLine {
+	border-top: solid black 1px;
+
+  }
+/* ---> end page break */
+
+/* top content */
+.main-content {
+
+}
+
+.main-content .top-content .text-content {
+
+	
+
+}
+.main-content .top-content .text-content:first-child {
+	
+}
+
+.main-content .top-content .text-content:last-child {
+
+}
+/* ---> end top content */
+/* Middle content image */
+.main-content .middle-img {
+
+}
+/* ---> end middle content image*/
+
+/* Bottom Content */
+.main-content .bottom-content .text-content {
+	
+	
+}
+.main-content .bottom-content .text-content:first-child {
+	
+}
+.main-content .bottom-content .text-content:nth-child(2) {
+	
+}
+.main-content .bottom-content .text-content:last-child {
+	
+}
+/* ---> end bottom content*/
+
+/* Page break 2*/
+.HorizontalLine2 {
+	border-top: solid black 1px;
+	
+}
+/* --> end page break 2*/
+
+.contact {
+	
+}
+
+/* footer */
+footer {
+}
+/* ---> end footer */
 
 /* Set every element's box-sizing to border-box */
 
 
+
 html, body {
-    height: 100%;
+
     font-family: 'Titillium Web', sans-serif;
 }
 
