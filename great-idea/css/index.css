@@ -73,46 +73,32 @@ header .logo {
 
 .main-content .top-content{
 	display: flex;
-	justify-content: space-evenly;
-	
+	flex-direction: row;
 
 }
-.main-content .top-content .text-content:first-child {
-	
-}
-
-.main-content .top-content .text-content:last-child {
-
+.main-content .top-content .text-content {
+	padding: 0px 10px;
 }
 /* ---> end top content */
+
 /* Middle content image */
 .main-content .middle-img {
-
+	width: 100%;
 }
 /* ---> end middle content image*/
 
 /* Bottom Content */
 .main-content .bottom-content {
 	display: flex;
+	flex-direction: row;
 }
 .main-content .bottom-content .text-content {
 	
-	
+	padding: 0px 10px;
 }
-.main-content .bottom-content .text-content:first-child {
-	
-}
-.main-content .bottom-content .text-content:nth-child(2) {
-	
-}
-.main-content .bottom-content .text-content:last-child {
-	
-}
+
 /* ---> end bottom content*/
 
-.contact {
-	
-}
 
 /* footer */
 footer {
